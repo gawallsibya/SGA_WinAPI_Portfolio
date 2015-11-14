@@ -1,0 +1,540 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="2DGameFramework">
+      <UniqueIdentifier>{e73311a5-998f-4c19-8341-4934b0d6cd2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\animation">
+      <UniqueIdentifier>{bb7a8689-ac77-46b3-a315-fd175e1f0f49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\image">
+      <UniqueIdentifier>{8a89b5b7-2953-46f5-9467-d267f6d05f8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\manager">
+      <UniqueIdentifier>{13f18138-893d-48bd-9249-85b879581488}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\progressBar">
+      <UniqueIdentifier>{afe28296-a685-4f61-8c61-14943d493b92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\timer">
+      <UniqueIdentifier>{0e8e5327-2a6f-467c-8f28-9d505ac99ca7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\txtData">
+      <UniqueIdentifier>{51a8af70-d278-473f-8c70-a0be06ea7219}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\util">
+      <UniqueIdentifier>{6654f27b-6d55-4a46-a29f-a1274b8a4bb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy">
+      <UniqueIdentifier>{5b33b67c-024a-48a6-b441-3ee8752de71c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\effect">
+      <UniqueIdentifier>{18b5cd8c-8109-4a5f-8220-f32b61d17317}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\object">
+      <UniqueIdentifier>{1fbe97f8-91c9-449a-ae99-2b6d69d2e299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\scene">
+      <UniqueIdentifier>{7ea84ec5-f0c9-4e8d-b96c-0898424829d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\button">
+      <UniqueIdentifier>{5c8ee947-a6c1-4080-95c9-f74140056e06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\object\character">
+      <UniqueIdentifier>{9a580d44-1221-41cc-b88f-fab757fb7237}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\object\missile">
+      <UniqueIdentifier>{27c85bda-3d9e-4e2f-ad13-08e442c3f133}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\object\character\enemy">
+      <UniqueIdentifier>{4c6542a2-e3ed-4b09-9855-80737e62f18c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\myProgressBar">
+      <UniqueIdentifier>{ffed5944-b76b-49d2-a74e-b562a00fc432}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\object\card">
+      <UniqueIdentifier>{debed854-3b79-4e67-8656-df890da02f18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\object\ui">
+      <UniqueIdentifier>{d4a10173-ab95-47ab-ac2a-a1630e93e1f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\loading">
+      <UniqueIdentifier>{ae76230d-58f4-4551-8822-fe6e2e3d4136}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\stage">
+      <UniqueIdentifier>{f24ff894-3172-4fac-8f7e-2463aca28e89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\object\character\enemy\snake">
+      <UniqueIdentifier>{a53cc2c1-62fa-4818-a69a-126e78df943a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\object\character\player">
+      <UniqueIdentifier>{0688eb58-7194-4894-be05-4cddcb476382}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\object\character\state">
+      <UniqueIdentifier>{775bb5c5-7d0a-4a1d-b01e-891e1fa09893}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\object\character\state\remiliaState">
+      <UniqueIdentifier>{378f50f3-dec4-48e6-af23-02ad71afd7d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\object\character\state\goldCatfishState">
+      <UniqueIdentifier>{9f9913f3-4a41-4322-aa34-735076ccd1d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\object\character\state\snakeState">
+      <UniqueIdentifier>{85cbb6ad-7a91-41cf-91b4-40252fbe89df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\object\character\enemy\blueBoogie">
+      <UniqueIdentifier>{1360a3ea-2dcb-4fcf-8848-1eddb4dcd09f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\object\character\state\blueBoogieState">
+      <UniqueIdentifier>{54a3d24a-2019-4150-9b3c-7bcb8e523330}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\stage\potal">
+      <UniqueIdentifier>{4b9badb0-689d-4b39-9936-b6ddd397694e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\object\character\enemy\goldCatfhsh">
+      <UniqueIdentifier>{b916c2cf-bd73-4db0-bd99-21ee4bd694ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="animation.cpp">
+      <Filter>2DGameFramework\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>2DGameFramework\image</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>2DGameFramework\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>2DGameFramework\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>2DGameFramework\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>2DGameFramework\util</Filter>
+    </ClCompile>
+    <ClCompile Include="txtData.cpp">
+      <Filter>2DGameFramework\txtData</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>2DGameFramework\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="progressBar.cpp">
+      <Filter>2DGameFramework\progressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>2DGameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="winAPI.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>2DGameFramework\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="effectManager.cpp">
+      <Filter>2DGameFramework\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cameraManager.cpp">
+      <Filter>2DGameFramework\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>gameStudy\object</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>2DGameFramework\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="button.cpp">
+      <Filter>2DGameFramework\button</Filter>
+    </ClCompile>
+    <ClCompile Include="keyAnimationManager.cpp">
+      <Filter>2DGameFramework\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="gameScene.cpp">
+      <Filter>gameStudy\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="remiliaState_walk_forward.cpp">
+      <Filter>gameStudy\object\character\state\remiliaState</Filter>
+    </ClCompile>
+    <ClCompile Include="remiliaState_dash_forward.cpp">
+      <Filter>gameStudy\object\character\state\remiliaState</Filter>
+    </ClCompile>
+    <ClCompile Include="remiliaState_idle.cpp">
+      <Filter>gameStudy\object\character\state\remiliaState</Filter>
+    </ClCompile>
+    <ClCompile Include="remiliaState_dash_back.cpp">
+      <Filter>gameStudy\object\character\state\remiliaState</Filter>
+    </ClCompile>
+    <ClCompile Include="remiliaState_attack_a1.cpp">
+      <Filter>gameStudy\object\character\state\remiliaState</Filter>
+    </ClCompile>
+    <ClCompile Include="remiliaState_attack_c1.cpp">
+      <Filter>gameStudy\object\character\state\remiliaState</Filter>
+    </ClCompile>
+    <ClCompile Include="remiliaState_attack_a3.cpp">
+      <Filter>gameStudy\object\character\state\remiliaState</Filter>
+    </ClCompile>
+    <ClCompile Include="remiliaState_jump.cpp">
+      <Filter>gameStudy\object\character\state\remiliaState</Filter>
+    </ClCompile>
+    <ClCompile Include="remiliaState_dash_forward_air.cpp">
+      <Filter>gameStudy\object\character\state\remiliaState</Filter>
+    </ClCompile>
+    <ClCompile Include="remiliaState_dash_back_air.cpp">
+      <Filter>gameStudy\object\character\state\remiliaState</Filter>
+    </ClCompile>
+    <ClCompile Include="remiliaState_sit.cpp">
+      <Filter>gameStudy\object\character\state\remiliaState</Filter>
+    </ClCompile>
+    <ClCompile Include="remiliaState_shot_b.cpp">
+      <Filter>gameStudy\object\character\state\remiliaState</Filter>
+    </ClCompile>
+    <ClCompile Include="character.cpp">
+      <Filter>gameStudy\object\character</Filter>
+    </ClCompile>
+    <ClCompile Include="gameStudy.cpp">
+      <Filter>gameStudy</Filter>
+    </ClCompile>
+    <ClCompile Include="missile.cpp">
+      <Filter>gameStudy\object\missile</Filter>
+    </ClCompile>
+    <ClCompile Include="missileManager.cpp">
+      <Filter>gameStudy\object\missile</Filter>
+    </ClCompile>
+    <ClCompile Include="remiliaState_gungnir.cpp">
+      <Filter>gameStudy\object\character\state\remiliaState</Filter>
+    </ClCompile>
+    <ClCompile Include="gungnir.cpp">
+      <Filter>gameStudy\object\missile</Filter>
+    </ClCompile>
+    <ClCompile Include="shot_b.cpp">
+      <Filter>gameStudy\object\missile</Filter>
+    </ClCompile>
+    <ClCompile Include="remiliaState_huyajyou.cpp">
+      <Filter>gameStudy\object\character\state\remiliaState</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>gameStudy\object\character\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyManager.cpp">
+      <Filter>gameStudy\object\character\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="goldCatfishState_idle.cpp">
+      <Filter>gameStudy\object\character\state\goldCatfishState</Filter>
+    </ClCompile>
+    <ClCompile Include="goldCatfishState_jump.cpp">
+      <Filter>gameStudy\object\character\state\goldCatfishState</Filter>
+    </ClCompile>
+    <ClCompile Include="collision.cpp">
+      <Filter>2DGameFramework\util</Filter>
+    </ClCompile>
+    <ClCompile Include="myProgressBar.cpp">
+      <Filter>gameStudy\myProgressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="remiliaState_hit_down_back.cpp">
+      <Filter>gameStudy\object\character\state\remiliaState</Filter>
+    </ClCompile>
+    <ClCompile Include="remiliaState_stand_up_back.cpp">
+      <Filter>gameStudy\object\character\state\remiliaState</Filter>
+    </ClCompile>
+    <ClCompile Include="remiliaState_hit_down_forward.cpp">
+      <Filter>gameStudy\object\character\state\remiliaState</Filter>
+    </ClCompile>
+    <ClCompile Include="remiliaState_stand_up_forward.cpp">
+      <Filter>gameStudy\object\character\state\remiliaState</Filter>
+    </ClCompile>
+    <ClCompile Include="remiliaState_hit_forward.cpp">
+      <Filter>gameStudy\object\character\state\remiliaState</Filter>
+    </ClCompile>
+    <ClCompile Include="remiliaState_die.cpp">
+      <Filter>gameStudy\object\character\state\remiliaState</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_state.cpp">
+      <Filter>gameStudy\object\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="card.cpp">
+      <Filter>gameStudy\object\card</Filter>
+    </ClCompile>
+    <ClCompile Include="goldCatfishState_die.cpp">
+      <Filter>gameStudy\object\character\state\goldCatfishState</Filter>
+    </ClCompile>
+    <ClCompile Include="loadScene.cpp">
+      <Filter>gameStudy\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="loading.cpp">
+      <Filter>gameStudy\loading</Filter>
+    </ClCompile>
+    <ClCompile Include="goldCatfishState_spark.cpp">
+      <Filter>gameStudy\object\character\state\goldCatfishState</Filter>
+    </ClCompile>
+    <ClCompile Include="stage.cpp">
+      <Filter>gameStudy\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="stage_boss.cpp">
+      <Filter>gameStudy\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="stageManager.cpp">
+      <Filter>gameStudy\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="stage_1.cpp">
+      <Filter>gameStudy\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="goldCatfish.cpp">
+      <Filter>gameStudy\object\character\enemy\goldCatfhsh</Filter>
+    </ClCompile>
+    <ClCompile Include="goldCatfish_animation.cpp">
+      <Filter>gameStudy\object\character\enemy\goldCatfhsh</Filter>
+    </ClCompile>
+    <ClCompile Include="remilia.cpp">
+      <Filter>gameStudy\object\character\player</Filter>
+    </ClCompile>
+    <ClCompile Include="remilia_animation.cpp">
+      <Filter>gameStudy\object\character\player</Filter>
+    </ClCompile>
+    <ClCompile Include="snake.cpp">
+      <Filter>gameStudy\object\character\enemy\snake</Filter>
+    </ClCompile>
+    <ClCompile Include="snakeState_idle.cpp">
+      <Filter>gameStudy\object\character\state\snakeState</Filter>
+    </ClCompile>
+    <ClCompile Include="snakeState_die.cpp">
+      <Filter>gameStudy\object\character\state\snakeState</Filter>
+    </ClCompile>
+    <ClCompile Include="snakeState_walk_forward.cpp">
+      <Filter>gameStudy\object\character\state\snakeState</Filter>
+    </ClCompile>
+    <ClCompile Include="snakeState_attack.cpp">
+      <Filter>gameStudy\object\character\state\snakeState</Filter>
+    </ClCompile>
+    <ClCompile Include="snake_aniamtion.cpp">
+      <Filter>gameStudy\object\character\enemy\snake</Filter>
+    </ClCompile>
+    <ClCompile Include="snakeState_hit_forward.cpp">
+      <Filter>gameStudy\object\character\state\snakeState</Filter>
+    </ClCompile>
+    <ClCompile Include="blueBoogie.cpp">
+      <Filter>gameStudy\object\character\enemy\blueBoogie</Filter>
+    </ClCompile>
+    <ClCompile Include="blueBoogieState_attack.cpp">
+      <Filter>gameStudy\object\character\state\blueBoogieState</Filter>
+    </ClCompile>
+    <ClCompile Include="blueBoogieState_die.cpp">
+      <Filter>gameStudy\object\character\state\blueBoogieState</Filter>
+    </ClCompile>
+    <ClCompile Include="blueBoogieState_hit_forward.cpp">
+      <Filter>gameStudy\object\character\state\blueBoogieState</Filter>
+    </ClCompile>
+    <ClCompile Include="blueBoogieState_idle.cpp">
+      <Filter>gameStudy\object\character\state\blueBoogieState</Filter>
+    </ClCompile>
+    <ClCompile Include="blueBoogieState_walk_forward.cpp">
+      <Filter>gameStudy\object\character\state\blueBoogieState</Filter>
+    </ClCompile>
+    <ClCompile Include="blueBoogie_aniamtion.cpp">
+      <Filter>gameStudy\object\character\enemy\blueBoogie</Filter>
+    </ClCompile>
+    <ClCompile Include="stage_2.cpp">
+      <Filter>gameStudy\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="portal.cpp">
+      <Filter>gameStudy\stage\potal</Filter>
+    </ClCompile>
+    <ClCompile Include="titleScene.cpp">
+      <Filter>gameStudy\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="gameoverScene.cpp">
+      <Filter>gameStudy\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="clearScene.cpp">
+      <Filter>gameStudy\scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="animation.h">
+      <Filter>2DGameFramework\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>2DGameFramework\image</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>2DGameFramework\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>2DGameFramework\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>2DGameFramework\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>2DGameFramework\util</Filter>
+    </ClInclude>
+    <ClInclude Include="txtData.h">
+      <Filter>2DGameFramework\txtData</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>2DGameFramework\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="progressBar.h">
+      <Filter>2DGameFramework\progressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>2DGameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="gameStudy.h">
+      <Filter>gameStudy</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="commonVirtualKey.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>2DGameFramework\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>2DGameFramework\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="effectManager.h">
+      <Filter>2DGameFramework\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cameraManager.h">
+      <Filter>2DGameFramework\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="vector2D.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="myRect.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>gameStudy\object</Filter>
+    </ClInclude>
+    <ClInclude Include="gameScene.h">
+      <Filter>gameStudy\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneManager.h">
+      <Filter>2DGameFramework\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>2DGameFramework\button</Filter>
+    </ClInclude>
+    <ClInclude Include="keyAnimationManager.h">
+      <Filter>2DGameFramework\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="remiliaState.h">
+      <Filter>gameStudy\object\character\state\remiliaState</Filter>
+    </ClInclude>
+    <ClInclude Include="character.h">
+      <Filter>gameStudy\object\character</Filter>
+    </ClInclude>
+    <ClInclude Include="missile.h">
+      <Filter>gameStudy\object\missile</Filter>
+    </ClInclude>
+    <ClInclude Include="missileManager.h">
+      <Filter>gameStudy\object\missile</Filter>
+    </ClInclude>
+    <ClInclude Include="gungnir.h">
+      <Filter>gameStudy\object\missile</Filter>
+    </ClInclude>
+    <ClInclude Include="shot_b.h">
+      <Filter>gameStudy\object\missile</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>gameStudy\object\character\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyManager.h">
+      <Filter>gameStudy\object\character\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="goldCatfishState.h">
+      <Filter>gameStudy\object\character\state\goldCatfishState</Filter>
+    </ClInclude>
+    <ClInclude Include="collision.h">
+      <Filter>2DGameFramework\util</Filter>
+    </ClInclude>
+    <ClInclude Include="myProgressBar.h">
+      <Filter>gameStudy\myProgressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_state.h">
+      <Filter>gameStudy\object\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="card.h">
+      <Filter>gameStudy\object\card</Filter>
+    </ClInclude>
+    <ClInclude Include="loadScene.h">
+      <Filter>gameStudy\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="loading.h">
+      <Filter>gameStudy\loading</Filter>
+    </ClInclude>
+    <ClInclude Include="stage.h">
+      <Filter>gameStudy\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="stage_boss.h">
+      <Filter>gameStudy\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="stageManager.h">
+      <Filter>gameStudy\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="stage_1.h">
+      <Filter>gameStudy\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="goldCatfish.h">
+      <Filter>gameStudy\object\character\enemy\goldCatfhsh</Filter>
+    </ClInclude>
+    <ClInclude Include="remilia.h">
+      <Filter>gameStudy\object\character\player</Filter>
+    </ClInclude>
+    <ClInclude Include="snake.h">
+      <Filter>gameStudy\object\character\enemy\snake</Filter>
+    </ClInclude>
+    <ClInclude Include="snakeState.h">
+      <Filter>gameStudy\object\character\state\snakeState</Filter>
+    </ClInclude>
+    <ClInclude Include="blueBoogie.h">
+      <Filter>gameStudy\object\character\enemy\blueBoogie</Filter>
+    </ClInclude>
+    <ClInclude Include="blueBoogieState.h">
+      <Filter>gameStudy\object\character\state\blueBoogieState</Filter>
+    </ClInclude>
+    <ClInclude Include="stage_2.h">
+      <Filter>gameStudy\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="portal.h">
+      <Filter>gameStudy\stage\potal</Filter>
+    </ClInclude>
+    <ClInclude Include="iState.h">
+      <Filter>gameStudy\object\character\state</Filter>
+    </ClInclude>
+    <ClInclude Include="gameoverScene.h">
+      <Filter>gameStudy\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="titleScene.h">
+      <Filter>gameStudy\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="clearScene.h">
+      <Filter>gameStudy\scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
